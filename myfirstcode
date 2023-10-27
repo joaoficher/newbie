@@ -1,0 +1,29 @@
+// Esse é meu primeiro código no visualg (portugol), aqui se inicia uma longa jornada para eu me tornar programador. Prometo não desisti.
+
+
+Algoritmo "Número da sorte"
+
+Var
+
+ x : inteiro
+
+
+Inicio
+
+    escreva("Escreva um número de 1 a 5: ")
+    leia(x)
+
+
+    se (x > 5) ou (x <= 0) entao
+    escreval("ERRO")
+    senao
+         se (X = 3) entao
+            escreval("Você encontrou o número premiado, Parabéns!")
+         senao
+              escreva("Que pena, não foi dessa vez :(")
+         
+         fimse
+    fimse
+
+
+Fimalgoritmo
